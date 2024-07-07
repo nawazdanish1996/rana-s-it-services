@@ -1,0 +1,36 @@
+.go-to-top{
+    z-index: 1000;
+    position: fixed;
+    top: 90%;
+    left: 95%;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 5px 10px;
+}
+
+@media (max-width: 800px){
+    .go-to-top{
+        left: 93%;
+    }
+}
+@media (max-width: 700px){
+    .go-to-top{
+        left: 90%;
+    }
+}
+@media (max-width: 560px){
+    .go-to-top{
+        left: 86%;
+    }
+}
+@media (max-width: 360px){
+    .go-to-top{
+        left: 83%;
+    }
+}
+@media (max-width: 300px){
+    .go-to-top{
+        left: 81%;
+    }
+}
